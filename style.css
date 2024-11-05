@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sub-sec1 h1{
+    font-size: 100px;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+}
+
+.sub-sec1 p{
+    position: absolute;
+    bottom: 150px;
+    left: 50px;
+    width: 500px;
+    margin: 5px;
+}
+
+#footer-sec{
+    width: 100%;
+}
+

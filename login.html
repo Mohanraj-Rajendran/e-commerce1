@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account</title>
+   <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <p class="tabs" id="lt" onclick="loginTab()">Login</p>
+            <p class="tabs" id="rt" onclick="SignUpTab()">Sign Up</p>
+        </div>
+
+        <div class="scontainer">
+                <div id="login" class="comm">
+                    <h3>Login</h3>
+                    <input type="email" id="se" placeholder="Enter Your email">
+                    <input type="password" id="sp" placeholder="Enter Your password">
+                    <input type="submit" onclick="login()" value="submit">
+                    <p class="fp" onclick="forTabFun()">Forgot Password?</p>
+                </div>
+                <div id="signUp" class="comm">
+                    <h3>SignUp</h3>
+                    <input type="email" id="re" placeholder="Enter Your email">
+                    <input type="password" id="rp" placeholder="Enter Your password">
+                    <input type="password" id="rrp" placeholder="Re-type password">
+                    <input type="submit" onclick="signUp()" value="submit">
+                </div>
+
+                <div id="forget" class="comm">
+                    <h3>Forgot Password</h3>
+                    <input type="email" id="fe" placeholder="Enter Your email">
+                    <input type="submit" onclick="forget()" value="submit">
+                </div>
+
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+</html>
